@@ -1,0 +1,20 @@
+# Configuration for files and directories used by the podcast generator
+files_data:
+  # Directory where the podcast files are stored
+  episodes_folder: episodes
+  # Name of the per-episode config file
+  info_file_name: info.yaml
+
+# Configuration for the podcast feed
+podcast_data:
+  title: Podcast Title
+  description: Podcast Description
+  author:
+    name: Your Name
+    email: contact@mypodcast.com
+  # Must be an IETF language tag: https://simple.wikipedia.org/wiki/IETF_language_tag
+  language: en-GB
+  # The link to the podcast's webpage
+  webpage: https://mypodcast.com
+  # The link to the podcast's logo
+  logo_url: https://via.placeholder.com/750x750.png
